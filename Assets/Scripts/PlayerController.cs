@@ -35,17 +35,20 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (IsGrounded == false && isAttacking == false)
-        //{
-        //    if (Input.GetKey(KeyCode.P))
-        //    {
-        //        isAttacking = true;
-        //        animator.SetBool("IsAirAttacking", true);
-        //    }
-        //    animator.SetBool("IsAirAttacking", false);
-        //    isAttacking = false; 
-        //}
-    }
+        if (Input.GetKey(KeyCode.P) && !isAttacking)
+        {
+            Debug.Log("attack");
+        }
+        if(Input.GetKey(KeyCode.W) && !isAttacking)
+        {
+            if(Input.GetKey(KeyCode.P) && !isAttacking)
+            {
+                Debug.Log("Up attack");
+            }
+        }
+
+      
+     }
 
   
 
@@ -108,4 +111,24 @@ public class PlayerController : MonoBehaviour
             
         }
     }
+
+   IEnumerator BasicAttack()
+    {
+        Debug.Log("attack");
+        isAttacking = true; 
+            yield return new WaitForSeconds(1);
+        Debug.Log("It is false");
+        isAttacking = false; 
+    }
+
+    IEnumerator BasicUpAttack()
+    {
+        Debug.Log("Up attack");
+        isAttacking = true;
+        yield return new WaitForSeconds(1);
+        Debug.Log("It is false"); 
+        isAttacking = false;
+    }
+
 }
+

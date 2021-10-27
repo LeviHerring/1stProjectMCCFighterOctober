@@ -76,8 +76,9 @@ public class PlayerCombat : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.P))
             {
-                StartCoroutine(BasicUpAttack());
                 Debug.Log("bdfshjbg");
+                StartCoroutine(BasicUpAttack());
+               
             }
             else if (Input.GetKey(KeyCode.I))
             {
@@ -237,7 +238,7 @@ public class PlayerCombat : MonoBehaviour
         animator.SetBool("IsForward", true);
         animator.SetBool("IsStrong", true);
         animator.SetBool("IsSpecial", false);
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(.5f);
         animator.SetBool("IsAttacking", false);
         animator.SetBool("IsForward", false);
         animator.SetBool("IsStrong", false);
