@@ -62,6 +62,150 @@ TextureImporter:
   - first:
       213: -7217946206847452043
     second: DreamSpriteTemplate_19
+  - first:
+      213: -7666767767403190719
+    second: DreamSpriteTemplate_82
+  - first:
+      213: -7376544841287423422
+    second: DreamSpriteTemplate_83
+  - first:
+      213: 1093985219033170191
+    second: DreamSpriteTemplate_85
+  - first:
+      213: 1786087241854216077
+    second: DreamSpriteTemplate_84
+  - first:
+      213: -7551065152095801537
+    second: DreamSpriteTemplate_86
+  - first:
+      213: 755448309289863282
+    second: DreamSpriteTemplate_87
+  - first:
+      213: -8644398027017120322
+    second: DreamSpriteTemplate_88
+  - first:
+      213: -4343680887536511572
+    second: DreamSpriteTemplate_89
+  - first:
+      213: -7863677046226303880
+    second: DreamSpriteTemplate_90
+  - first:
+      213: -7473960161927291233
+    second: DreamSpriteTemplate_91
+  - first:
+      213: 5832957632535810566
+    second: DreamSpriteTemplate_92
+  - first:
+      213: -1165912869593233152
+    second: DreamSpriteTemplate_93
+  - first:
+      213: 453687709968015585
+    second: DreamSpriteTemplate_94
+  - first:
+      213: -703201772330828301
+    second: DreamSpriteTemplate_95
+  - first:
+      213: -6629147892825299683
+    second: DreamSpriteTemplate_96
+  - first:
+      213: 3969025975553102420
+    second: DreamSpriteTemplate_97
+  - first:
+      213: -8079364679596971716
+    second: DreamSpriteTemplate_98
+  - first:
+      213: 7882515751877026632
+    second: DreamSpriteTemplate_99
+  - first:
+      213: -4149059319597292478
+    second: DreamSpriteTemplate_100
+  - first:
+      213: -6707840595401911164
+    second: DreamSpriteTemplate_101
+  - first:
+      213: 4841914365492044504
+    second: DreamSpriteTemplate_102
+  - first:
+      213: -5177153422504500016
+    second: DreamSpriteTemplate_103
+  - first:
+      213: 891672195400796460
+    second: DreamSpriteTemplate_104
+  - first:
+      213: 5722305670724070500
+    second: DreamSpriteTemplate_105
+  - first:
+      213: -4147563242754068853
+    second: DreamSpriteTemplate_106
+  - first:
+      213: -1959810331370759359
+    second: DreamSpriteTemplate_107
+  - first:
+      213: -8402125593377328757
+    second: DreamSpriteTemplate_108
+  - first:
+      213: -7540021225614778167
+    second: DreamSpriteTemplate_109
+  - first:
+      213: 8053171461301160009
+    second: DreamSpriteTemplate_110
+  - first:
+      213: 8758765588810038924
+    second: DreamSpriteTemplate_111
+  - first:
+      213: 8163445444425933549
+    second: DreamSpriteTemplate_112
+  - first:
+      213: 5427338686935752654
+    second: DreamSpriteTemplate_113
+  - first:
+      213: 4051811706413618469
+    second: DreamSpriteTemplate_114
+  - first:
+      213: -1136389719488561514
+    second: DreamSpriteTemplate_115
+  - first:
+      213: 1744546808117737392
+    second: DreamSpriteTemplate_116
+  - first:
+      213: -1558395042984545533
+    second: DreamSpriteTemplate_117
+  - first:
+      213: 9185120794164591093
+    second: DreamSpriteTemplate_118
+  - first:
+      213: 754723982188295777
+    second: DreamSpriteTemplate_119
+  - first:
+      213: -6824852163315271241
+    second: DreamSpriteTemplate_120
+  - first:
+      213: -1163814646251148014
+    second: DreamSpriteTemplate_121
+  - first:
+      213: 5490263104532676578
+    second: DreamSpriteTemplate_122
+  - first:
+      213: -7654304382730113603
+    second: DreamSpriteTemplate_123
+  - first:
+      213: -847098077602780430
+    second: DreamSpriteTemplate_124
+  - first:
+      213: -5156014789440846308
+    second: DreamSpriteTemplate_125
+  - first:
+      213: 9028101833847565902
+    second: DreamSpriteTemplate_126
+  - first:
+      213: 365604723093790989
+    second: DreamSpriteTemplate_127
+  - first:
+      213: -5009771841606211642
+    second: DreamSpriteTemplate_128
+  - first:
+      213: -3610147282291457439
+    second: DreamSpriteTemplate_54
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -578,6 +722,2127 @@ TextureImporter:
       bones: []
       spriteID: 57cbafcca24b4db90800000000000000
       internalID: -7217946206847452043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 913
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a507d4562643d80800000000000000
+      internalID: -8271878428342330880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 913
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f511904080e950800000000000000
+      internalID: 6476317278959171723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 914
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bcea2c9299eed00800000000000000
+      internalID: 1003908171589143427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 857
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4f612be4e1e9570800000000000000
+      internalID: 8475244872101983472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 854
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016e6316193ab26c0800000000000000
+      internalID: -4167057185404688880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_25
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 853
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd793fe0b508ee020800000000000000
+      internalID: 2372975182252054492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 797
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea4d9384e362ab0800000000000000
+      internalID: -5033267053611143515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 797
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7011afca22a73dab0800000000000000
+      internalID: -4984506073219460857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 797
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7a4d5f536d3c930800000000000000
+      internalID: 4162406007866435501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 797
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76408b53db95f3520800000000000000
+      internalID: 2683962572121048167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 742
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d8316aab68c5ab0800000000000000
+      internalID: -5017987748589236927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 742
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341d9f5ab377290b0800000000000000
+      internalID: -5723381078363090621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 742
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831feddd1e26caac0800000000000000
+      internalID: -3842587659824336584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 743
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03335f64dd09ad00800000000000000
+      internalID: 984333199609115406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_34
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 743
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3ec75fa257a3e00800000000000000
+      internalID: 1025260692547888074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_35
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 743
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef769a7b386b7cc50800000000000000
+      internalID: 6685512848693094398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 684
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8fc5707c0ae3bf0800000000000000
+      internalID: -342659744951109429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_37
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 685
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ab3b31572125630800000000000000
+      internalID: 3914211320189401747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 685
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f37b5991be0d60800000000000000
+      internalID: 7858413672030534057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_39
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 685
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5edc8c9e3ced30800000000000000
+      internalID: 4462010172916521651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_40
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 684
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a195fcd14c6e06aa0800000000000000
+      internalID: -6169677759509472998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_41
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 684
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f58784ade0e6f120800000000000000
+      internalID: 2447390758794659315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_42
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 685
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac03f5aca83b5b840800000000000000
+      internalID: 5239291150197534922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_43
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 628
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098360622d9db4080800000000000000
+      internalID: -9202021916997175152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_44
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 629
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195086cc052328610800000000000000
+      internalID: 1621914138414941585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 630
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89230de6a612497f0800000000000000
+      internalID: -606823308778786152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_46
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 628
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b4e6bd266869740800000000000000
+      internalID: 5158458182345837384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_47
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 628
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7402faad47baeba90800000000000000
+      internalID: -7296205827920158649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_48
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 628
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea65184bea5830ae0800000000000000
+      internalID: -1584275658505103698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_49
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 627
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9216b966d2bfd2b80800000000000000
+      internalID: -8417795956072029911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_50
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 627
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda6bcb663ebe80a0800000000000000
+      internalID: -6877350440002164004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_51
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 627
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089c4a05b79bceb60800000000000000
+      internalID: 7776794595847096704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_52
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 627
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09084ff0edd91f2e0800000000000000
+      internalID: -2093718774674587504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_53
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 627
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b6eed023354d60800000000000000
+      internalID: 7873755739798812476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_55
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 575
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e1d95922a59a140800000000000000
+      internalID: 4731411988114906669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 573
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed371a4d163e55620800000000000000
+      internalID: 2762363955780350942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 573
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a403faf63fa304790800000000000000
+      internalID: -7547968158247735222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 576
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6a65ea01c933050800000000000000
+      internalID: 5779134342304802525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_59
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 575
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de24b6cded7e83f0800000000000000
+      internalID: -896640815605731627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 576
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742440cc8a1d1ba50800000000000000
+      internalID: 6535235057198842439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_61
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 576
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c373a37372749dfc0800000000000000
+      internalID: -3469663804156397764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_62
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 573
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fc97cfc307e66c0800000000000000
+      internalID: -4148254799525458136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_63
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 590
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dba7d8c19bcc4a80800000000000000
+      internalID: -8481180171245212713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_64
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 518
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff5e12a07a737890800000000000000
+      internalID: -7461485533447954434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 511
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1effb5c5d17b510800000000000000
+      internalID: 1564751678052229602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_66
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 511
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a61f2e3e666ff90800000000000000
+      internalID: -6920230648457106936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_67
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 511
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8964d6533d74cde60800000000000000
+      internalID: 7988338811508442776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_68
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 511
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd292e4e2898f6680800000000000000
+      internalID: -8759631554933517603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 461
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6704b4d97fe8dc90800000000000000
+      internalID: -7144697502284642454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_70
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 461
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89526ff1ea3aae970800000000000000
+      internalID: 8785013991395435928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_71
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 461
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de0e0cbea6885460800000000000000
+      internalID: 7230677286780800722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_72
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 461
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71e3dc3152e54030800000000000000
+      internalID: 3478435125754323326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_73
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 462
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308050ac7e3f969a0800000000000000
+      internalID: -6239187631892789245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_76
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 462
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f3ecb330ce14520800000000000000
+      internalID: 2684686351521955659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_75
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 461
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a30386b804f76970800000000000000
+      internalID: 8748229119449432999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_80
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 457
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac613115e0f57590800000000000000
+      internalID: -7676965123156513619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_81
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 480
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44639ae849c41b0d0800000000000000
+      internalID: -3408859242010429884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_83
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 471
+        width: 3
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aa259ac8f31a990800000000000000
+      internalID: -7376544841287423422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_84
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 460
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87e39422e479c810800000000000000
+      internalID: 1786087241854216077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_87
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 459
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27844691c34eb7a00800000000000000
+      internalID: 755448309289863282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 347
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59bb02f3528b3c0800000000000000
+      internalID: -4343680887536511572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_90
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 349
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874c947d36b9ed290800000000000000
+      internalID: -7863677046226303880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_91
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 349
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e17ead4d8274890800000000000000
+      internalID: -7473960161927291233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_92
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 343
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602533dff04d2f050800000000000000
+      internalID: 5832957632535810566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_93
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 344
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009c6d02c68d1dfe0800000000000000
+      internalID: -1165912869593233152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_94
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 351
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0aa978192db4600800000000000000
+      internalID: 453687709968015585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_95
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 349
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdbbcab6b9bd36f0800000000000000
+      internalID: -703201772330828301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_96
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 343
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d156e9c3d198004a0800000000000000
+      internalID: -6629147892825299683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_97
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 344
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45214219810d41730800000000000000
+      internalID: 3969025975553102420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_98
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 290
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39e8c551a450ef80800000000000000
+      internalID: -8079364679596971716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_99
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 290
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8432d0f1052546d60800000000000000
+      internalID: 7882515751877026632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_100
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 290
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244216f08849b66c0800000000000000
+      internalID: -4149059319597292478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_101
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 290
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484df15a486f8e2a0800000000000000
+      internalID: -6707840595401911164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 291
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2a30c367fe13340800000000000000
+      internalID: 4841914365492044504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_103
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 289
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4ebe7546e0728b0800000000000000
+      internalID: -5177153422504500016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_104
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 292
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2905fe232bdf5c00800000000000000
+      internalID: 891672195400796460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_105
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 286
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c26bf70b6b96f40800000000000000
+      internalID: 5722305670724070500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_106
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e2d289435e076c0800000000000000
+      internalID: -4147563242754068853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_107
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b518b13ea5dc4e0800000000000000
+      internalID: -1959810331370759359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_108
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 66
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b6880a47a56b80800000000000000
+      internalID: -8402125593377328757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_109
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 58
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c06350e4a67c5790800000000000000
+      internalID: -7540021225614778167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_110
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 58
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9484b2ac6cc92cf60800000000000000
+      internalID: 8053171461301160009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_111
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 234
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8effe7a5e26d8970800000000000000
+      internalID: 8758765588810038924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_112
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 232
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2e94241626a4170800000000000000
+      internalID: 8163445444425933549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_113
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 233
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf5a8ec7c7c15b40800000000000000
+      internalID: 5427338686935752654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_114
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 234
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5259d81974dea3830800000000000000
+      internalID: 4051811706413618469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_115
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 232
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e7a7b229bba30f0800000000000000
+      internalID: -1136389719488561514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_116
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 229
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b736e73410e53810800000000000000
+      internalID: 1744546808117737392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_117
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 230
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3033d2317f77f5ae0800000000000000
+      internalID: -1558395042984545533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_118
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 176
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9fb3b82ba187f70800000000000000
+      internalID: 9185120794164591093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_119
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 175
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1663dcd8671597a00800000000000000
+      internalID: 754723982188295777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_120
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 171
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b97909fd114941a0800000000000000
+      internalID: -6824852163315271241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_121
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 172
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dadc1debc49dfe0800000000000000
+      internalID: -1163814646251148014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_122
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 173
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef7a157435513c40800000000000000
+      internalID: 5490263104532676578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_123
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 174
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbde7a8d7b276c590800000000000000
+      internalID: -7654304382730113603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_124
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 117
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fae19a59c08e34f0800000000000000
+      internalID: -847098077602780430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_125
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 114
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16c7b2edd72278b0800000000000000
+      internalID: -5156014789440846308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_126
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 116
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e6982f8c24a4d70800000000000000
+      internalID: 9028101833847565902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_127
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 123
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e5300f83e21500800000000000000
+      internalID: 365604723093790989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_128
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 116
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7ae4f8d07b97ab0800000000000000
+      internalID: -5009771841606211642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamSpriteTemplate_54
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 283
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1620d249c2e26edc0800000000000000
+      internalID: -3610147282291457439
       vertices: []
       indices: 
       edges: []
