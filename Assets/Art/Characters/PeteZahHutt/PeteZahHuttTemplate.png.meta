@@ -20,6 +20,30 @@ TextureImporter:
   - first:
       213: -1074500221746922934
     second: PeteZahHuttTemplate_5
+  - first:
+      213: -2925938677061988768
+    second: PeteZahHuttTemplate_6
+  - first:
+      213: -6275328906450940976
+    second: PeteZahHuttTemplate_7
+  - first:
+      213: -3448910125920921934
+    second: PeteZahHuttTemplate_8
+  - first:
+      213: 6427284298726363085
+    second: PeteZahHuttTemplate_9
+  - first:
+      213: -4919358024697728063
+    second: PeteZahHuttTemplate_10
+  - first:
+      213: 5740240946532700480
+    second: PeteZahHuttTemplate_11
+  - first:
+      213: -655194542446514791
+    second: PeteZahHuttTemplate_12
+  - first:
+      213: -3939213905006366987
+    second: PeteZahHuttTemplate_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,7 +153,7 @@ TextureImporter:
         width: 25
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,7 +174,7 @@ TextureImporter:
         width: 25
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,7 +195,7 @@ TextureImporter:
         width: 25
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,7 +216,7 @@ TextureImporter:
         width: 25
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,7 +237,7 @@ TextureImporter:
         width: 25
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,7 +258,7 @@ TextureImporter:
         width: 25
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,6 +266,174 @@ TextureImporter:
       bones: []
       spriteID: a4a32b3cdbb9611f0800000000000000
       internalID: -1074500221746922934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 569
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ec427864af467d0800000000000000
+      internalID: -2925938677061988768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 569
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db40429b9d89e8a0800000000000000
+      internalID: -6275328906450940976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 569
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b65c3a73820320d0800000000000000
+      internalID: -3448910125920921934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 569
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfc708340d423950800000000000000
+      internalID: 6427284298726363085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 569
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3bceeb0fdeabbb0800000000000000
+      internalID: -4919358024697728063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 569
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041db3f4abe69af40800000000000000
+      internalID: 5740240946532700480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_12
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 569
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d63b6f80848e6f0800000000000000
+      internalID: -655194542446514791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PeteZahHuttTemplate_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fee0d103d91559c0800000000000000
+      internalID: -3939213905006366987
       vertices: []
       indices: 
       edges: []

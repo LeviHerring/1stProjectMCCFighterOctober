@@ -37,13 +37,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.P) && !isAttacking)
         {
-            Debug.Log("attack");
+            Attack();
         }
         if(Input.GetKey(KeyCode.W) && !isAttacking)
         {
             if(Input.GetKey(KeyCode.P) && !isAttacking)
             {
-                Debug.Log("Up attack");
+                UpAttack(); 
             }
         }
 
@@ -112,7 +112,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-   IEnumerator BasicAttack()
+    public void Attack()
+    {
+        Debug.Log("attack");
+    }
+
+    public void UpAttack()
+    {
+        Debug.Log("Up attack"); //ienumerators don't work but functions work. and ienumeratiors don't work inside functions
+    }
+
+    IEnumerator BasicAttack()
     {
         Debug.Log("attack");
         isAttacking = true; 
