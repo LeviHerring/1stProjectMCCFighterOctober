@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     bool isAttacking = false; 
     public float runSpeed = 6f;
-    public float jumpHeight = 5f; 
+    public float jumpHeight = 5f;
+    float delay = 1f; 
 
 
     public bool IsGrounded;
@@ -37,13 +38,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.P) && !isAttacking)
         {
-            Attack();
+            Attack(delay);
         }
         if(Input.GetKey(KeyCode.W) && !isAttacking)
         {
             if(Input.GetKey(KeyCode.P) && !isAttacking)
             {
-                UpAttack(); 
+                StartCoroutine(BasicUpAttack(delay));
             }
         }
 
@@ -112,17 +113,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Attack()
+    public void Attack(float delay)
     {
         Debug.Log("attack");
     }
 
-    public void UpAttack()
+    public void UpAttack(float delay)
     {
         Debug.Log("Up attack"); //ienumerators don't work but functions work. and ienumeratiors don't work inside functions
     }
 
-    IEnumerator BasicAttack()
+    IEnumerator BasicAttack(float delay)
     {
         Debug.Log("attack");
         isAttacking = true; 
@@ -131,7 +132,7 @@ public class PlayerController : MonoBehaviour
         isAttacking = false; 
     }
 
-    IEnumerator BasicUpAttack()
+    IEnumerator BasicUpAttack(float delay)
     {
         Debug.Log("Up attack");
         isAttacking = true;
