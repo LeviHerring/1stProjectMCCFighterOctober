@@ -38,13 +38,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.P) && !isAttacking)
         {
-            Attack(delay);
+           
         }
         if(Input.GetKey(KeyCode.W) && !isAttacking)
         {
             if(Input.GetKey(KeyCode.P) && !isAttacking)
             {
-                StartCoroutine(BasicUpAttack(delay));
+               
             }
         }
 
@@ -123,23 +123,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Up attack"); //ienumerators don't work but functions work. and ienumeratiors don't work inside functions
     }
 
-    IEnumerator BasicAttack(float delay)
-    {
-        Debug.Log("attack");
-        isAttacking = true; 
-            yield return new WaitForSeconds(1);
-        Debug.Log("It is false");
-        isAttacking = false; 
-    }
 
-    IEnumerator BasicUpAttack(float delay)
-    {
-        Debug.Log("Up attack");
-        isAttacking = true;
-        yield return new WaitForSeconds(1);
-        Debug.Log("It is false"); 
-        isAttacking = false;
-    }
 
 }
 
