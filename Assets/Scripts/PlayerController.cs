@@ -8,11 +8,11 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rigidBody;
     SpriteRenderer spriteRenderer;
+    AnimationEvents animationEvents;
     public Animator animator;
-    bool isAttacking = false; 
+    public bool isAttacking = false; 
     public float runSpeed = 6f;
     public float jumpHeight = 5f;
-    float delay = 1f; 
 
 
     public bool IsGrounded;
@@ -28,23 +28,31 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); 
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animationEvents = GetComponent<AnimationEvents>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.P) && !isAttacking)
+        if (Input.GetKey(KeyCode.P) && GetComponent<AnimationEvents>().isAttacking == false)
         {
-           
+            Attack(); 
         }
-        if(Input.GetKey(KeyCode.W) && !isAttacking)
+        if(Input.GetKey(KeyCode.W) && GetComponent<AnimationEvents>().isAttacking == false)
         {
-            if(Input.GetKey(KeyCode.P) && !isAttacking)
+            if(Input.GetKey(KeyCode.P) && GetComponent<AnimationEvents>().isAttacking == false)
             {
-               
+                UpAttack();
+                //Debug.Log("Up attack"); 
+                //GetComponent<AnimationEvents>().isAttacking = true;
+                //animator.SetBool("IsUp", true);
+                //animator.SetBool("IsAttacking", true);
+                //animator.SetBool("IsForward", false);
+                //animator.SetBool("IsStrong", false);
+                //animator.SetBool("IsSpecial", false);
+                
             }
         }
 
@@ -113,12 +121,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Attack(float delay)
+    public void Attack()
     {
         Debug.Log("attack");
+        GetComponent<AnimationEvents>().isAttacking = true;
+        animator.SetBool("IsAttacking", true);
+        animator.SetBool("IsForward", true);
+        animator.SetBool("IsStrong", false);
+        animator.SetBool("IsSpecial", false);
     }
 
-    public void UpAttack(float delay)
+    public void UpAttack()
     {
         Debug.Log("Up attack"); //ienumerators don't work but functions work. and ienumeratiors don't work inside functions
     }
