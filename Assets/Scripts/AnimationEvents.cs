@@ -32,4 +32,18 @@ public class AnimationEvents : MonoBehaviour
 
         isAttacking = false; 
     }
+
+    void OnAnimationEndInAir()
+    {
+        animator.SetBool("IsJumping", false);
+        animator.SetBool("IsAttacking", false);
+        animator.SetBool("IsForward", false);
+        animator.SetBool("IsStrong", false);
+        animator.SetBool("IsSpecial", false);
+        animator.SetBool("IsUp", false);
+        animator.SetBool("IsDown", false);
+        animator.SetBool("IsAirAttacking", false);
+
+        isAttacking = false;
+    }
 }

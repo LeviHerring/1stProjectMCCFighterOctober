@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public bool isAttacking = false; 
     public float runSpeed = 6f;
     public float jumpHeight = 5f;
-
+    public bool canDoubleJump; 
 
     public bool IsGrounded;
 
@@ -36,28 +36,198 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.P) && GetComponent<AnimationEvents>().isAttacking == false)
+        if(IsGrounded)
         {
-            Attack(); 
-        }
-        if(Input.GetKey(KeyCode.W) && GetComponent<AnimationEvents>().isAttacking == false)
-        {
-            if(Input.GetKey(KeyCode.P) && GetComponent<AnimationEvents>().isAttacking == false)
+            if (Input.GetKey(KeyCode.P) && IsGrounded && GetComponent<AnimationEvents>().isAttacking == false)
             {
-                UpAttack();
-                //Debug.Log("Up attack"); 
-                //GetComponent<AnimationEvents>().isAttacking = true;
-                //animator.SetBool("IsUp", true);
-                //animator.SetBool("IsAttacking", true);
-                //animator.SetBool("IsForward", false);
-                //animator.SetBool("IsStrong", false);
-                //animator.SetBool("IsSpecial", false);
+                Attack();
+            }
+            if (Input.GetKey(KeyCode.O) && IsGrounded && GetComponent<AnimationEvents>().isAttacking == false)
+            {
+                GetComponent<AnimationEvents>().isAttacking = true;
+                animator.SetBool("IsDown", false);
+                animator.SetBool("IsAttacking", true);
+                animator.SetBool("IsForward", true);
+                animator.SetBool("IsStrong", true);
+                animator.SetBool("IsSpecial", false);
+            }
+            if (Input.GetKey(KeyCode.I) && IsGrounded && GetComponent<AnimationEvents>().isAttacking == false)
+            {
+                GetComponent<AnimationEvents>().isAttacking = true;
+                animator.SetBool("IsDown", false);
+                animator.SetBool("IsAttacking", true);
+                animator.SetBool("IsForward", true);
+                animator.SetBool("IsStrong", false);
+                animator.SetBool("IsSpecial", true);
+            }
+            if (Input.GetKey(KeyCode.W) && IsGrounded)
+            {
+                if (Input.GetKey(KeyCode.P))
+                {
+                    UpAttack();
+                    //Debug.Log("Up attack"); 
+                    //GetComponent<AnimationEvents>().isAttacking = true;
+                    //animator.SetBool("IsUp", true);
+                    //animator.SetBool("IsAttacking", true);
+                    //animator.SetBool("IsForward", false);
+                    //animator.SetBool("IsStrong", false);
+                    //animator.SetBool("IsSpecial", false);
+
+                }
+                if (Input.GetKey(KeyCode.O))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsUp", true);
+                    animator.SetBool("IsDown", false);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", true);
+                    animator.SetBool("IsSpecial", false);
+                }
+                if (Input.GetKey(KeyCode.I))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsUp", true);
+                    animator.SetBool("IsDown", false);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", true);
+                }
+            }
+
+            if (Input.GetKey(KeyCode.S) && IsGrounded)
+            {
+                if (Input.GetKey(KeyCode.P))
+                {
+
+                    animator.SetBool("IsDown", true);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", false);
+                }
+                if (Input.GetKey(KeyCode.O))
+                {
+
+                    animator.SetBool("IsDown", true);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", true);
+                    animator.SetBool("IsSpecial", false);
+                }
+                if (Input.GetKey(KeyCode.I))
+                {
+
+                    animator.SetBool("IsDown", true);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", true);
+                }
+            }
+
+        }
+        else if (!IsGrounded)
+        {
+            if(Input.GetKey(KeyCode.P))
+            {
+                 animator.SetBool("IsJumping", true);
+                animator.SetBool("IsAirAttacking", true);
+                animator.SetBool("IsForward", true);
+            }
+            if (Input.GetKey(KeyCode.O))
+            {
+                animator.SetBool("IsJumping", true);
+                animator.SetBool("IsAirAttacking", true);
+                animator.SetBool("IsForward", true);
+                animator.SetBool("IsStrong", true);
+                animator.SetBool("IsSpecial", false); 
+            }
+            if (Input.GetKey(KeyCode.I))
+            {
+                animator.SetBool("IsJumping", false);
+                animator.SetBool("IsAttacking", true);
+                animator.SetBool("IsForward", true);
+                animator.SetBool("IsStrong", false);
+                animator.SetBool("IsSpecial", true);
                 
+            }
+
+            if(Input.GetKey(KeyCode.W))
+            {
+                if (Input.GetKey(KeyCode.P))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsUp", true);
+                    animator.SetBool("IsAirAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", false);
+                    animator.SetBool("IsJumping", false);
+                }
+                if (Input.GetKey(KeyCode.I))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsJumping", false);
+                    animator.SetBool("IsUp", true);
+                    animator.SetBool("IsDown", false);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", true);
+                }
+                if(Input.GetKey(KeyCode.O))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsUp", true);
+                    animator.SetBool("IsDown", false);
+                    animator.SetBool("IsAirAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", true);
+                    animator.SetBool("IsSpecial", false);
+                    animator.SetBool("IsJumping", true); 
+                }
+               
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                if (Input.GetKey(KeyCode.P))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsDown", true);
+                    animator.SetBool("IsAirAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", false);
+                    animator.SetBool("IsJumping", true);
+                }
+                if (Input.GetKey(KeyCode.I))
+                {
+                    animator.SetBool("IsJumping", false);
+                    animator.SetBool("IsDown", true);
+                    animator.SetBool("IsAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", false);
+                    animator.SetBool("IsSpecial", true);
+                }
+                 if (Input.GetKey(KeyCode.O))
+                {
+                    GetComponent<AnimationEvents>().isAttacking = true;
+                    animator.SetBool("IsDown", true);
+                    animator.SetBool("IsAirAttacking", true);
+                    animator.SetBool("IsForward", false);
+                    animator.SetBool("IsStrong", true);
+                    animator.SetBool("IsSpecial", false);
+                    animator.SetBool("IsJumping", true);
+                }
             }
         }
 
-      
-     }
+
+
+
+    }
 
   
 
@@ -110,7 +280,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (Input.GetKey("space") && IsGrounded == true)
+        if (Input.GetKey("space") && IsGrounded == true && GetComponent<AnimationEvents>().isAttacking == false)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpHeight);
             animator.SetBool("IsJumping", true); 
@@ -123,7 +293,6 @@ public class PlayerController : MonoBehaviour
 
     public void Attack()
     {
-        Debug.Log("attack");
         GetComponent<AnimationEvents>().isAttacking = true;
         animator.SetBool("IsAttacking", true);
         animator.SetBool("IsForward", true);
@@ -133,8 +302,16 @@ public class PlayerController : MonoBehaviour
 
     public void UpAttack()
     {
-        Debug.Log("Up attack"); //ienumerators don't work but functions work. and ienumeratiors don't work inside functions
+
+        GetComponent<AnimationEvents>().isAttacking = true;
+        animator.SetBool("IsUp", true); 
+        animator.SetBool("IsAttacking", true);
+        animator.SetBool("IsForward", false);
+        animator.SetBool("IsStrong", false);
+        animator.SetBool("IsSpecial", false);//ienumerators don't work but functions work. and ienumeratiors don't work inside functions
     }
+
+
 
 
 
