@@ -62,6 +62,27 @@ TextureImporter:
   - first:
       213: 8618396282447122613
     second: FruitBerriesTemplate_19
+  - first:
+      213: -5263694183926087337
+    second: FruitBerriesTemplate_20
+  - first:
+      213: 4680697021975686977
+    second: FruitBerriesTemplate_21
+  - first:
+      213: 6592781560418922481
+    second: FruitBerriesTemplate_22
+  - first:
+      213: 1809218893364772559
+    second: FruitBerriesTemplate_23
+  - first:
+      213: 837429023865272575
+    second: FruitBerriesTemplate_24
+  - first:
+      213: -7892739255773874033
+    second: FruitBerriesTemplate_25
+  - first:
+      213: 7637609513467551627
+    second: FruitBerriesTemplate_26
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -606,7 +627,7 @@ TextureImporter:
         width: 17
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,6 +635,153 @@ TextureImporter:
       bones: []
       spriteID: 5b0dec4b1c1ba9770800000000000000
       internalID: 8618396282447122613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 911
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751cbc8270a93f6b0800000000000000
+      internalID: -5263694183926087337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 911
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fe610642d25f040800000000000000
+      internalID: 4680697021975686977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 912
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffe38e26e34e7b50800000000000000
+      internalID: 6592781560418922481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 864
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcebee37ff2ab1910800000000000000
+      internalID: 1809218893364772559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 865
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff87714a2452f9b00800000000000000
+      internalID: 837429023865272575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 865
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8831d2e67b577290800000000000000
+      internalID: -7892739255773874033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 458
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f906ff26d3ef960800000000000000
+      internalID: 7637609513467551627
       vertices: []
       indices: 
       edges: []
