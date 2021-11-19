@@ -17,6 +17,38 @@ public class PlayerController : MonoBehaviour
 
     public bool IsGrounded;
 
+    [SerializeField] GameObject forwarBasicHitbox;
+
+    [SerializeField] GameObject downBasicHitbox;
+
+    [SerializeField] GameObject upBasicHitbox;
+
+    [SerializeField] GameObject forwardStrongHitbox;
+
+    [SerializeField] GameObject downStrongHitbox;
+
+    [SerializeField] GameObject upStrongHitbox;
+
+    [SerializeField] GameObject forwardSpecialHitbox;
+
+    [SerializeField] GameObject downSpecialHitbox;
+
+    [SerializeField] GameObject upSpecialHitbox;
+
+    [SerializeField] GameObject forwardBasicAirHitbox;
+
+    [SerializeField] GameObject downBasicAirHitbox;
+
+    [SerializeField] GameObject upBasicAirHitbox;
+
+    [SerializeField] GameObject forwardStrongAirHitbox;
+
+    [SerializeField] GameObject downStrongAirHitbox;
+
+    [SerializeField] GameObject upStrongAirHitbox;
+
+
+
 
     [SerializeField]
     Transform groundCheckCentre;
@@ -45,6 +77,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.O) && IsGrounded && GetComponent<AnimationEvents>().isAttacking == false)
             {
                 GetComponent<AnimationEvents>().isAttacking = true;
+                forwardStrongAirHitbox.gameObject.SetActive(true);
                 animator.SetBool("IsDown", false);
                 animator.SetBool("IsAttacking", true);
                 animator.SetBool("IsForward", true);
@@ -53,6 +86,7 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.I) && IsGrounded && GetComponent<AnimationEvents>().isAttacking == false)
             {
+                forwardSpecialHitbox.gameObject.SetActive(true);
                 GetComponent<AnimationEvents>().isAttacking = true;
                 animator.SetBool("IsDown", false);
                 animator.SetBool("IsAttacking", true);
@@ -76,6 +110,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Input.GetKey(KeyCode.O))
                 {
+                    upStrongHitbox.gameObject.SetActive(true);
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsUp", true);
                     animator.SetBool("IsDown", false);
@@ -86,6 +121,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Input.GetKey(KeyCode.I))
                 {
+                    upSpecialHitbox.gameObject.SetActive(true);
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsUp", true);
                     animator.SetBool("IsDown", false);
@@ -100,7 +136,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.P))
                 {
-
+                    downBasicHitbox.gameObject.SetActive(true);
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAttacking", true);
                     animator.SetBool("IsForward", false);
@@ -109,7 +145,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Input.GetKey(KeyCode.O))
                 {
-
+                    downStrongHitbox.gameObject.SetActive(true); 
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAttacking", true);
                     animator.SetBool("IsForward", false);
@@ -118,7 +154,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Input.GetKey(KeyCode.I))
                 {
-
+                    downSpecialHitbox.gameObject.SetActive(true); 
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAttacking", true);
                     animator.SetBool("IsForward", false);
@@ -132,12 +168,14 @@ public class PlayerController : MonoBehaviour
         {
             if(Input.GetKey(KeyCode.P))
             {
+                forwardBasicAirHitbox.gameObject.SetActive(true); 
                  animator.SetBool("IsJumping", true);
                 animator.SetBool("IsAirAttacking", true);
                 animator.SetBool("IsForward", true);
             }
             if (Input.GetKey(KeyCode.O))
             {
+                forwardStrongAirHitbox.gameObject.SetActive(true); 
                 animator.SetBool("IsJumping", true);
                 animator.SetBool("IsAirAttacking", true);
                 animator.SetBool("IsForward", true);
@@ -146,6 +184,7 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.I))
             {
+                forwardSpecialHitbox.gameObject.SetActive(true); 
                 animator.SetBool("IsJumping", false);
                 animator.SetBool("IsAttacking", true);
                 animator.SetBool("IsForward", true);
@@ -158,6 +197,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.P))
                 {
+                    upBasicAirHitbox.gameObject.SetActive(true); 
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsUp", true);
                     animator.SetBool("IsAirAttacking", true);
@@ -168,6 +208,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Input.GetKey(KeyCode.I))
                 {
+                    upSpecialHitbox.gameObject.SetActive(true);
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsJumping", false);
                     animator.SetBool("IsUp", true);
@@ -179,6 +220,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if(Input.GetKey(KeyCode.O))
                 {
+                    upStrongAirHitbox.gameObject.SetActive(true);
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsUp", true);
                     animator.SetBool("IsDown", false);
@@ -194,6 +236,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.P))
                 {
+                    downBasicHitbox.gameObject.SetActive(true); 
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAirAttacking", true);
@@ -204,6 +247,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Input.GetKey(KeyCode.I))
                 {
+                    downSpecialHitbox.gameObject.SetActive(true); 
                     animator.SetBool("IsJumping", false);
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAttacking", true);
@@ -213,6 +257,7 @@ public class PlayerController : MonoBehaviour
                 }
                  if (Input.GetKey(KeyCode.O))
                 {
+                    downStrongAirHitbox.gameObject.SetActive(true);
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAirAttacking", true);
@@ -298,11 +343,12 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsForward", true);
         animator.SetBool("IsStrong", false);
         animator.SetBool("IsSpecial", false);
+        forwarBasicHitbox.gameObject.SetActive(true); 
     }
 
     public void UpAttack()
     {
-
+        upBasicHitbox.gameObject.SetActive(true);
         GetComponent<AnimationEvents>().isAttacking = true;
         animator.SetBool("IsUp", true); 
         animator.SetBool("IsAttacking", true);
