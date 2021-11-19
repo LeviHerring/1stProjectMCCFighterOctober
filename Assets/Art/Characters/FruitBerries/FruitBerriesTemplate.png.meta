@@ -83,6 +83,21 @@ TextureImporter:
   - first:
       213: 7637609513467551627
     second: FruitBerriesTemplate_26
+  - first:
+      213: -4119781206014971235
+    second: FruitBerries_DownBasic1
+  - first:
+      213: -7405915986030861459
+    second: FruitBerriesTemplate_DownBasic2
+  - first:
+      213: 7547016830595643664
+    second: FruitBerriesTemplate_DownBasic3
+  - first:
+      213: -6309284359976706484
+    second: FruitBerriesTemplate_DownBasic4
+  - first:
+      213: -2458352816371287081
+    second: FruitBerriesTemplate_DownBasic5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -648,7 +663,7 @@ TextureImporter:
         width: 23
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -669,7 +684,7 @@ TextureImporter:
         width: 23
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -690,7 +705,7 @@ TextureImporter:
         width: 24
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -711,7 +726,7 @@ TextureImporter:
         width: 33
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -732,7 +747,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -753,7 +768,7 @@ TextureImporter:
         width: 20
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -774,7 +789,7 @@ TextureImporter:
         width: 25
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -782,6 +797,111 @@ TextureImporter:
       bones: []
       spriteID: b8f906ff26d3ef960800000000000000
       internalID: 7637609513467551627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerries_DownBasic1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 802
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92b52712d893d6c0800000000000000
+      internalID: -4119781206014971235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_DownBasic2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 801
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d636e3026a6e83990800000000000000
+      internalID: -7405915986030861459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_DownBasic3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 800
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0193c8552d36cb860800000000000000
+      internalID: 7547016830595643664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_DownBasic4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 799
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e19a87d4be078a0800000000000000
+      internalID: -6309284359976706484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FruitBerriesTemplate_DownBasic5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 799
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbbb9f632d22edd0800000000000000
+      internalID: -2458352816371287081
       vertices: []
       indices: 
       edges: []

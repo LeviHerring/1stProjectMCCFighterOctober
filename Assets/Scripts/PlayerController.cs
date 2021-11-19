@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public bool isAttacking = false; 
     public float runSpeed = 6f;
     public float jumpHeight = 5f;
-    public bool canDoubleJump; 
+    public bool canDoubleJump;
 
     public bool IsGrounded;
 
@@ -270,9 +270,9 @@ public class PlayerController : MonoBehaviour
         }
 
 
-
-
     }
+
+  
 
   
 
