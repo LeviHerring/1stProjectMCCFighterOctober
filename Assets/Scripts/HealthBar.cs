@@ -28,6 +28,17 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.G))
+        {
+            GetCoins(.001f);
+        }
+    }
+
+    public void G()
+    {
+        if (Input.GetKey(KeyCode.G))
+        {
+            GetCoins(.001f);
+        }
     }
 }
