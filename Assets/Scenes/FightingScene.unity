@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 65687301}
   m_Layer: 0
   m_Name: FruitBerriesTemplate_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1542,6 +1542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
+  ownHtibox: {fileID: 0}
 --- !u!1 &561301538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,7 +2003,7 @@ GameObject:
   - component: {fileID: 800096822}
   m_Layer: 0
   m_Name: DREAM!_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2238,6 +2239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 537716074}
+  ownHtibox: {fileID: 0}
 --- !u!1 &803301902
 GameObject:
   m_ObjectHideFlags: 0

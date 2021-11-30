@@ -8,7 +8,11 @@ public class HealthBar : MonoBehaviour
 
     public Image healthBar;
 
-    private float health; 
+    private float health;
+
+
+    [SerializeField]
+    GameObject ownHtibox; 
     // Start is called before the first frame update
 
 
@@ -28,17 +32,22 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.G))
-        {
-            GetCoins(.001f);
-        }
+        
     }
 
-    public void G()
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (Input.GetKey(KeyCode.G))
+        if (collision.gameObject == ownHtibox)
         {
-            GetCoins(.001f);
+            GetCoins(0f); 
+        }
+        else
+        {
+            if(collision.gameObject.tag == "Player")
+            {
+                GetCoins(0.001f); 
+            }
+
         }
     }
 }
