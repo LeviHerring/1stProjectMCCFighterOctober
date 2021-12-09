@@ -11,19 +11,19 @@ public class HealthBar : MonoBehaviour
     private float health;
 
 
-    [SerializeField]
-    GameObject ownHtibox; 
     // Start is called before the first frame update
 
 
     
     void Start()
     {
+
+        healthBar = GetComponent<Image>(); 
         health = 0f;
         healthBar.fillAmount = health; 
     }
 
-    void GetCoins(float amount)
+    public void GetCoins(float amount)
     {
         health += amount;
         healthBar.fillAmount = health;
@@ -35,19 +35,5 @@ public class HealthBar : MonoBehaviour
         
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject == ownHtibox)
-        {
-            GetCoins(0f); 
-        }
-        else
-        {
-            if(collision.gameObject.tag == "Player")
-            {
-                GetCoins(0.001f); 
-            }
 
-        }
-    }
 }
