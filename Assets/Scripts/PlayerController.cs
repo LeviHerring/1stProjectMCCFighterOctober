@@ -236,7 +236,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.P))
                 {
-                    downBasicHitbox.gameObject.SetActive(true); 
+                    downBasicAirHitbox.gameObject.SetActive(true);
                     GetComponent<AnimationEvents>().isAttacking = true;
                     animator.SetBool("IsDown", true);
                     animator.SetBool("IsAirAttacking", true);

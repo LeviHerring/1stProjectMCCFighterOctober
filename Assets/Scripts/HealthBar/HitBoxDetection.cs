@@ -24,7 +24,7 @@ public class HitBoxDetection : MonoBehaviour
     }
 
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == ownHtibox)
         {
@@ -32,9 +32,9 @@ public class HitBoxDetection : MonoBehaviour
         }
         if (collision.gameObject.name == "FruitBerriesTemplate_0")
         {
-            GetComponent<HealthBar>().GetCoins(0.001f);
             Debug.Log("Hit Detected");
+            GetComponent<HealthBar>().GetCoins(0.001f);
+            
         }
-
     }
 }
