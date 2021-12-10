@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System;
 
 public class HealthBar : MonoBehaviour
 {
 
     public Image healthBar;
 
-    private float health;
+    public float health;
 
 
     // Start is called before the first frame update
@@ -18,9 +20,8 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
 
-        healthBar = GetComponent<Image>(); 
+        healthBar.fillAmount = health;
         health = 0f;
-        healthBar.fillAmount = health; 
     }
 
     public void GetCoins(float amount)
@@ -32,6 +33,10 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(health >= 1)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
         
     }
 

@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.O) && IsGrounded && GetComponent<AnimationEvents>().isAttacking == false)
             {
                 GetComponent<AnimationEvents>().isAttacking = true;
-                forwardStrongAirHitbox.gameObject.SetActive(true);
+                forwardStrongHitbox.gameObject.SetActive(true);
                 animator.SetBool("IsDown", false);
                 animator.SetBool("IsAttacking", true);
                 animator.SetBool("IsForward", true);
