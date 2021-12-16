@@ -8,9 +8,14 @@ using System;
 public class HealthBar : MonoBehaviour
 {
 
+    public GameObject healthBarPlayer2Object;
+    public Image healthBarPlayer2;
+
+    public GameObject healthBarObject;
     public Image healthBar;
 
     public float health;
+    public float healthPlayer2; 
 
 
     // Start is called before the first frame update
@@ -19,7 +24,7 @@ public class HealthBar : MonoBehaviour
     
     void Start()
     {
-
+        
         healthBar.fillAmount = health;
         health = 0f;
     }
@@ -27,7 +32,15 @@ public class HealthBar : MonoBehaviour
     public void GetCoins(float amount)
     {
         health += amount;
-        healthBar.fillAmount = health;
+        if (healthBarObject.activeSelf == true)
+        {
+            healthBar.fillAmount = health;
+        }
+        else
+        {
+            healthBarPlayer2.fillAmount = health; 
+        }
+
     }    
 
     // Update is called once per frame

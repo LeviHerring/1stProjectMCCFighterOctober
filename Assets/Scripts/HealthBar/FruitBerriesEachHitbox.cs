@@ -1,21 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using System.Threading.Tasks;
-using System;
 
-public class FruitBerriesHitBox : MonoBehaviour
+public class FruitBerriesEachHitbox : MonoBehaviour
 {
-
+    public float damage;
 
     HealthBar healthBar;
 
 
 
-    [SerializeField]
-    GameObject ownHtibox;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,15 +30,17 @@ public class FruitBerriesHitBox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "PeteZahHuttTemplate_0")
+        if (collision.gameObject.tag == "Dream")
+        {
+            Debug.Log("Hit ON DREAM Detected");
+            healthBar.GetCoins(damage);
+
+        }
+        else if (collision.gameObject.tag == "PeteZahHutt")
         {
             Debug.Log("Hit ON PETE Detected");
-            healthBar.GetCoins(0.0000000000000000000001f);
+            healthBar.GetCoins(damage);
         }
-        else if (collision.gameObject.name == "PeteZahHutt")
-        {
-            Debug.Log("HIT ON DREAM AAAAAAAAAA");
-            healthBar.GetCoins(1f);
-        }
+
     }
 }

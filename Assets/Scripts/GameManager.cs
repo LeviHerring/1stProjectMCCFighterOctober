@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public bool isPlayerOne; 
 
     [SerializeField] GameObject dream;
     [SerializeField] GameObject fruitBerries;
@@ -23,16 +24,19 @@ public class GameManager : MonoBehaviour
             case "Dream":
                 dream.SetActive(true);
                 dream.transform.position = playerOnePos.position;
+                isPlayerOne = true; 
                 break;
 
             case "FruitBerries":
                 fruitBerries.SetActive(true);
                 fruitBerries.transform.position = playerOnePos.position;
+                isPlayerOne = true;
                 break;
 
             case "PeteZahHutt":
                 peteZahHutt.SetActive(true);
                 peteZahHutt.transform.position = playerOnePos.position;
+                isPlayerOne = true;
                 break; 
         }
 
@@ -41,16 +45,19 @@ public class GameManager : MonoBehaviour
             case "Dream":
                 dream.SetActive(true);
                 dream.transform.position = playerTwoPos.position;
+                isPlayerOne = false;
                 break;
 
             case "FruitBerries":
                 fruitBerries.SetActive(true);
                 dream.transform.position = playerTwoPos.position;
+                isPlayerOne = false;
                 break;
 
             case "PeteZahHutt":
                 peteZahHutt.SetActive(true);
                 peteZahHutt.transform.position = playerTwoPos.position;
+                isPlayerOne = false;
                 break; 
         }
     }
