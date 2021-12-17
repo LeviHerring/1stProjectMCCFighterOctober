@@ -7,7 +7,7 @@ public class CharacterSelectScreen : MonoBehaviour
 
 
     [SerializeField]
-    public int position = 0; 
+    public int position = 2; 
 
     [SerializeField]
     public int[] bounds;
@@ -25,20 +25,20 @@ public class CharacterSelectScreen : MonoBehaviour
     void Update()
     {
 
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.A))
             {
                 if (!(position <= bounds[0]))
                 {
                     position = position - 1;
-                    transform.position += new Vector3(-3, 0, 0);
+                    transform.position += new Vector3(-6, 0, 0);
                 }
             }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             if (!(position >= bounds[1]))
             {
                 position = position + 1;
-                transform.position += new Vector3(3, 0, 0);
+                transform.position += new Vector3(6, 0, 0);
             }
         }
 

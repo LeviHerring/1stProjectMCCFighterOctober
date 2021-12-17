@@ -28,6 +28,6 @@ public class ButtonScript : MonoBehaviour
 
     public void ToCharacterSelectScreen()
     {
-        SceneManager.LoadScene("CharacterSelectScreen");
+        SceneManager.LoadScene("Character Select Screen");
     }
 }

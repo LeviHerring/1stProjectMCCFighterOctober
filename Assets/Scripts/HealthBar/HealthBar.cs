@@ -7,7 +7,8 @@ using System;
 
 public class HealthBar : MonoBehaviour
 {
-
+    public bool isPlayerOne; 
+    public PlayerController playerController; 
     public GameObject healthBarPlayer2Object;
     public Image healthBarPlayer2;
 
@@ -24,7 +25,16 @@ public class HealthBar : MonoBehaviour
     
     void Start()
     {
-        
+        if(playerController.isPlayerOne == true)
+        {
+            healthBarObject.SetActive(true);
+            healthBarPlayer2Object.SetActive(false);
+        }
+        else
+        {
+            healthBarPlayer2Object.SetActive(true);
+            healthBarObject.SetActive(false);
+        }
         healthBar.fillAmount = health;
         health = 0f;
     }

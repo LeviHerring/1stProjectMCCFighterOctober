@@ -7,7 +7,7 @@ public class Player2CSS : MonoBehaviour
 
 
     [SerializeField]
-    public int position = 3;
+    public int position = 0;
 
     [SerializeField]
     public int[] bounds;
@@ -25,20 +25,20 @@ public class Player2CSS : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (!(position <= bounds[0]))
             {
-                position = position - 1;
-                transform.position += new Vector3(-3, 0, 0);
+                position--;
+                transform.position += new Vector3(-6, 0, 0);
             }
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (!(position >= bounds[1]))
             {
-                position = position + 1 ;
-                transform.position += new Vector3(3, 0, 0);
+                position++;
+                transform.position += new Vector3(6, 0, 0);
             }
         }
 

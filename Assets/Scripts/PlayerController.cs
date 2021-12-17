@@ -6,8 +6,10 @@ using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
 
+    public float z = 0f; 
+
     public GameManager gameManager; 
-    bool isPlayerOne; 
+    public bool isPlayerOne;
     Rigidbody2D rigidBody;
     SpriteRenderer spriteRenderer;
     AnimationEvents animationEvents;
@@ -61,10 +63,19 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         rigidBody = GetComponent<Rigidbody2D>();
+        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        rigidBody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animationEvents = GetComponent<AnimationEvents>();
-        isPlayerOne = gameManager.isPlayerOne == isPlayerOne; 
+       //if(gameManager.isPlayerOne == true)
+        //{
+            //isPlayerOne = true;
+        //}
+        //else
+        //{
+           // isPlayerOne = false; 
+       // }
+
        
 
     }
@@ -73,7 +84,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        if (isPlayerOne == true) 
+        if (isPlayerOne == true)
         {
             if (IsGrounded)
             {
@@ -276,7 +287,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        else
+        else if (isPlayerOne == false)
         {
             if (IsGrounded)
             {
@@ -504,7 +515,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("IsJumping", true);
         }
 
-        if(isPlayerOne)
+        if (isPlayerOne)
         {
             if (Input.GetKey("d"))
             {
@@ -546,8 +557,8 @@ public class PlayerController : MonoBehaviour
                 animator.SetBool("IsJumping", true);
             }
         }
-       
-        else
+
+        else if (isPlayerOne == false)
         {
             if (Input.GetKey("right"))
             {

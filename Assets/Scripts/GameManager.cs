@@ -60,6 +60,21 @@ public class GameManager : MonoBehaviour
                 isPlayerOne = false;
                 break; 
         }
+
+        int count = 0;
+
+        foreach(PlayerController instance in FindObjectsOfType<PlayerController>())
+        {
+            if (count == 0)
+            {
+                instance.isPlayerOne = true; 
+            }
+            else
+            {
+                instance.isPlayerOne = false; 
+            }
+            count++; 
+        }
     }
 
     // Update is called once per frame
